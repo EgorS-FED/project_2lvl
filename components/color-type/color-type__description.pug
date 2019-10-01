@@ -1,0 +1,27 @@
+include color-type__description_green.pug
+include color-type__description_purple.pug
+include color-type__description_dark-shade-5.pug
+include color-type__description_dark-shade-25.pug
+include color-type__description_dark-shade-50.pug
+include color-type__description_dark-shade-75.pug
+include color-type__description_dark-shade-100.pug
+
+- 
+    var descriptionColors= [
+        dark_shade_100,
+        dark_shade_75,
+        dark_shade_50,
+        dark_shade_25,
+        dark_shade_5,
+        purple,
+        green    
+    ]
+
+mixin color-type__description(color)
+    each val, index in descriptionColors
+        - var descriptionColor= val
+        each val, index in descriptionColor
+            if index == color
+                .color-type__description(class= val)
+                    | #{val}
+                    | #{index[2]}

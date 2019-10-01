@@ -1,11 +1,15 @@
 @import "color-type__plate_green";
 @import "color-type__plate_purple";
+@import "color-type__plate_dark-shade-5";
+@import "color-type__plate_dark-shade-25";
+@import "color-type__plate_dark-shade-50";
+@import "color-type__plate_dark-shade-75";
+@import "color-type__plate_dark-shade-100";
 
 @mixin color-type__plate {
     .color-type__plate {
         width: 70px;
         height: 70px;
         border-radius: 6px;
-        border: 2px solid #000000;
     }
 }
