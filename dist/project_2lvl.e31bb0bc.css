@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.button {
+  width: 100px;
+  height: 34px;
+  border: 2px solid #BC9CFF;
+  border-radius: 22px;
+  background-color: #ffffff;
+  color: #BC9CFF;
+}
+.color-type__plate_green {
+  background-color: #6FCF97;
+}
+
+.color-type__plate_purple {
+  background-color: #BC9CFF;
+}
+
+.color-type {
+  width: 20%;
+}
+.color-type .color-type__plate {
+  display: inline-block;
+}
+.color-type .color-type__plate {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  border: 2px solid #000000;
+}
+
+.colors-n-types {
+  list-style: none;
+}
+
+/*# sourceMappingURL=/project_2lvl.e31bb0bc.css.map */

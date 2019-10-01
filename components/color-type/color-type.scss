@@ -1,0 +1,11 @@
+@import "color-type__plate";
+
+@mixin color-type {
+    .color-type {
+        width: 20%;
+        .color-type__plate {
+            display: inline-block;
+        }
+    @include color-type__plate;
+    }
+}

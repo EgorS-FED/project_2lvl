@@ -1,0 +1,15 @@
+include color-type__plate_green.pug
+include color-type__plate_purple.pug
+
+- 
+    var plateColors= [
+        green, 
+        purple
+    ]
+
+mixin color-type__plate(color)
+    each val, index in plateColors
+        - var plateColor= val
+        each val, index in plateColor
+            if index == color
+                .color-type__plate(class= val)

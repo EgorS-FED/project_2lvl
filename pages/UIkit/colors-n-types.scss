@@ -1,0 +1,6 @@
+@import "../../components/color-type/color-type.scss";
+
+@include color-type;
+.colors-n-types {
+    list-style: none;
+}

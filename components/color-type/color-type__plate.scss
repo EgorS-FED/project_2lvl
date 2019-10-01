@@ -1,0 +1,11 @@
+@import "color-type__plate_green";
+@import "color-type__plate_purple";
+
+@mixin color-type__plate {
+    .color-type__plate {
+        width: 70px;
+        height: 70px;
+        border-radius: 6px;
+        border: 2px solid #000000;
+    }
+}

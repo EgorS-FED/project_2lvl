@@ -1,0 +1,9 @@
+include ../../components/color-type/color-type.pug
+
+mixin colors-n-types
+    ul.colors-n-types
+        each val, index in plateColors
+            - var plateColor= val
+            each val, index in plateColor
+                li
+                    +color-type(index)
