@@ -4,9 +4,7 @@
 @mixin color-type {
     .color-type {
         width: 20%;
-    @include color-type__plate;
-        display: inline-block;
-    @include color-type__description;
-        display: inline-block;
+        @include color-type__plate;
+        @include color-type__description;
     }
 }

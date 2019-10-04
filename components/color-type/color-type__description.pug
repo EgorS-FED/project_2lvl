@@ -17,12 +17,12 @@ include color-type__description_dark-shade-100.pug
         green    
     ]
 
+//- Вызов класса и описания из модификаторов
 mixin color-type__description(color)
     each val, index in descriptionColors
         - var descriptionColor= val
         each val, index in descriptionColor
             if index == color
-                .color-type__description(class= val)
-                p= descriptionColor['name']
+                .color-type__description(class= val)= descriptionColor['name']
             
 

@@ -45,16 +45,17 @@ body {
 
 .color-type {
   width: 20%;
-  display: inline-block;
-  display: inline-block;
 }
 .color-type .color-type__plate {
   width: 70px;
   height: 70px;
   border-radius: 6px;
+  display: inline-block;
 }
 .color-type .color-type__description {
   color: #1F2041;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .colors-n-types {
