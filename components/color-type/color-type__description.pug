@@ -23,5 +23,6 @@ mixin color-type__description(color)
         each val, index in descriptionColor
             if index == color
                 .color-type__description(class= val)
-                    | #{val}
-                    | #{index[2]}
+                p= descriptionColor['name']
+            
+
