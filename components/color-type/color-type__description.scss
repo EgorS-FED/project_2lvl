@@ -9,6 +9,19 @@
 @mixin color-type__description {
     .color-type__description {
         color: #1F2041;
-        display: inline-block;
+        width: 100px;
+        margin: auto;
+        font-family: 'Quicksand Regular';
+        font-size: 19px;
+        font-weight: normal;
+        p {
+            margin: 0;
+            padding: 0;
+            white-space: nowrap;
+        }
+        .bold {
+            white-space: nowrap;
+            font-weight: 700;
+        }
     }
 }

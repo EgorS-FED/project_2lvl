@@ -2,5 +2,10 @@
 - 
     var purple= {
         'purple': 'color-type__description_purple',
-        'name': 'Purple #BC9CFF'
+        'name': 'Purple',
+        'code': '#BC9CFF'
     }
+
+mixin color-type__description_purple
+    span(class='bold')= purple['name']
+    p= purple['code']

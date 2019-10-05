@@ -3,8 +3,10 @@
 
 @mixin color-type {
     .color-type {
-        width: 20%;
         @include color-type__plate;
         @include color-type__description;
+        width: 15%;
+        display: flex;
+        height: 70px;
     }
 }

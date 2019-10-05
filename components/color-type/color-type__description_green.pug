@@ -2,5 +2,10 @@
 - 
     var green= {
         'green': 'color-type__description_green',
-        'name': 'Green #6FCF97'
+        'name': 'Green',
+        'code': '#6FCF97'
     }
+
+mixin color-type__description_green
+    span(class='bold')= green['name']
+    p= green['code']

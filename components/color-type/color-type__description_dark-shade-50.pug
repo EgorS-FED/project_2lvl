@@ -2,5 +2,10 @@
 - 
     var dark_shade_50= {
         'dark-shade-50': 'color-type__description_dark-shade-50',
-        'name': 'Dark Shade 50% #1F2041'
+        'name': 'Dark Shade 50%',
+        'code': '#1F2041'
     }
+
+mixin color-type__description_dark-shade-50
+    span(class='bold')= dark_shade_50['name']
+    p= dark_shade_50['code']

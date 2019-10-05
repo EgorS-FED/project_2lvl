@@ -7,22 +7,38 @@ include color-type__description_dark-shade-75.pug
 include color-type__description_dark-shade-100.pug
 
 - 
-    var descriptionColors= [
+    var descriptionColors= {
         dark_shade_100,
         dark_shade_75,
         dark_shade_50,
         dark_shade_25,
-        dark_shade_5,
+        'dark-shade-5': 'color-type__description_dark-shade-5',
         purple,
-        green    
-    ]
+        green: 'color-type__description_green'
+    }
 
 //- Вызов класса и описания из модификаторов
 mixin color-type__description(color)
-    each val, index in descriptionColors
-        - var descriptionColor= val
-        each val, index in descriptionColor
-            if index == color
-                .color-type__description(class= val)= descriptionColor['name']
+        if color == 'dark-shade-5'
+            .color-type__description(class= 'color-type__description_dark-shade-5')
+                +color-type__description_dark-shade-5
+        if color == 'dark-shade-25'
+            .color-type__description(class= 'color-type__description_dark-shade-25')
+                +color-type__description_dark-shade-25
+        if color == 'dark-shade-50'
+            .color-type__description(class= 'color-type__description_dark-shade-50')
+                +color-type__description_dark-shade-50
+        if color == 'dark-shade-75'
+            .color-type__description(class= 'color-type__description_dark-shade-75')
+                +color-type__description_dark-shade-75
+        if color == 'dark-shade-100'
+            .color-type__description(class= 'color-type__description_dark-shade-100')
+                +color-type__description_dark-shade-100
+        if color == 'purple'
+            .color-type__description(class= 'color-type__description_purple')
+                +color-type__description_purple
+        if color == 'green'
+            .color-type__description(class= 'color-type__description_green')
+                +color-type__description_green
             
 
