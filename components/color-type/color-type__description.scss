@@ -11,16 +11,17 @@
         color: #1F2041;
         width: 100px;
         margin: auto;
-        font-family: 'Quicksand Regular';
         font-size: 19px;
-        font-weight: normal;
+        line-height: 29px;
+        white-space: nowrap;
         p {
             margin: 0;
             padding: 0;
-            white-space: nowrap;
+            font-family: 'Quicksand Regular';
+            font-weight: normal;
         }
         .bold {
-            white-space: nowrap;
+            font-family: 'Quicksand Bold';
             font-weight: 700;
         }
     }

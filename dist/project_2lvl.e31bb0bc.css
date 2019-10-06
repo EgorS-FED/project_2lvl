@@ -62,28 +62,31 @@ body {
   width: 15%;
   display: flex;
   height: 70px;
+  margin: 20px auto;
 }
 .color-type .color-type__plate {
   width: 70px;
   height: 70px;
   border-radius: 6px;
   display: inline-block;
+  margin-right: 40px;
 }
 .color-type .color-type__description {
   color: #1F2041;
   width: 100px;
   margin: auto;
-  font-family: "Quicksand Regular";
   font-size: 19px;
-  font-weight: normal;
+  line-height: 29px;
+  white-space: nowrap;
 }
 .color-type .color-type__description p {
   margin: 0;
   padding: 0;
-  white-space: nowrap;
+  font-family: "Quicksand Regular";
+  font-weight: normal;
 }
 .color-type .color-type__description .bold {
-  white-space: nowrap;
+  font-family: "Quicksand Bold";
   font-weight: 700;
 }
 
