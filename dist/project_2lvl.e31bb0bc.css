@@ -88,8 +88,19 @@ body {
   font-weight: 700;
 }
 
-.colors-n-types {
+.main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+ul.colors-n-types {
   list-style: none;
+  position: absolute;
+}
+
+ul.colors {
   margin: 145px 0 0 140px;
 }
 

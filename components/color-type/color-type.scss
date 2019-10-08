@@ -1,5 +1,5 @@
-@import "color-type__plate";
-@import "color-type__description";
+@import "./color-type__plate/color-type__plate";
+@import "./color-type__description/color-type__description";
 
 @mixin color-type {
     .color-type {
