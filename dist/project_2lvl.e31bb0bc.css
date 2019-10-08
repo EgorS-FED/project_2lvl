@@ -89,7 +89,7 @@ body {
 .color-type .color-type__type-index {
   display: block;
   color: rgba(31, 32, 65, 0.25);
-  font-family: "Quicksand Bold";
+  font-family: "Quicksand Regular";
   margin-right: 30px;
 }
 .color-type .color-type__type-index h1 {
@@ -111,14 +111,25 @@ body {
 .main {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
   position: relative;
-  margin: 145px 200px 0 140px;
 }
 
 .colors-n-types ul {
   list-style: none;
+  padding: 0;
+}
+
+.colors {
+  position: absolute;
+  top: 145px;
+  left: 140px;
+}
+
+.types {
+  position: absolute;
+  top: 145px;
+  left: 60%;
+  margin-right: 140px;
 }
 
 /*# sourceMappingURL=/project_2lvl.e31bb0bc.css.map */

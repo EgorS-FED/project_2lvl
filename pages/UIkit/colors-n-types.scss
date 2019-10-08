@@ -5,18 +5,25 @@
 .main {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-between;
     position: relative;
-    margin: 145px 200px 0 140px;
 }
 
 .colors-n-types {
     ul{
         list-style: none;
+        padding: 0;
     }
 }
 
 .colors {
-    
+    position: absolute;
+    top: 145px;
+    left: 140px;
+}
+
+.types {
+    position: absolute;
+    top: 145px;
+    left: 60%;
+    margin-right: 140px;
 }
