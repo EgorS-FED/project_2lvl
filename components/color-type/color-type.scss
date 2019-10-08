@@ -1,13 +1,17 @@
 @import "./color-type__plate/color-type__plate";
 @import "./color-type__description/color-type__description";
+@import "./color-type__type-index/color-type__type-index";
+@import "./color-type__type-example/color-type__type-example";
 
 @mixin color-type {
     .color-type {
         @include color-type__plate;
         @include color-type__description;
+        @include color-type__type-index;
+        @include color-type__type-example;
         //min-width: 110px;
         display: flex;
-        height: 70px;
+        //height: 70px;
         margin: 20px 0;
         justify-content: start;
 

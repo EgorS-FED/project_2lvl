@@ -1,7 +1,13 @@
 include ./color-type__plate/color-type__plate.pug
 include ./color-type__description/color-type__description.pug
+include ./color-type__type-index/color-type__type-index.pug
+include ./color-type__type-example/color-type__type-example.pug
 
-mixin color-type(color)
+mixin color-type__color(color)
     .color-type
         +color-type__plate(color)
         +color-type__description(color)
+mixin color-type__type(type)
+    .color-type
+        +color-type__type-index(type)
+        +color-type__type-example(type)

@@ -1,0 +1,11 @@
+include color-type__type-index_h1.pug
+
+-
+    var typeExamples= [
+        h1,
+    ]
+
+mixin color-type__type-index(type)
+    if type == h1
+        .color-type__type-index
+            +color-type__type-index_h1

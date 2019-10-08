@@ -6,14 +6,17 @@
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;
     position: relative;
+    margin: 145px 200px 0 140px;
 }
 
-ul.colors-n-types {
-    list-style: none;
-    position: absolute;
+.colors-n-types {
+    ul{
+        list-style: none;
+    }
 }
 
-ul.colors {
-    margin: 145px 0 0 140px;
+.colors {
+    
 }

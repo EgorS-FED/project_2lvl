@@ -60,7 +60,6 @@ body {
 
 .color-type {
   display: flex;
-  height: 70px;
   margin: 20px 0;
   justify-content: start;
 }
@@ -87,21 +86,39 @@ body {
   font-family: "Quicksand Bold";
   font-weight: 700;
 }
+.color-type .color-type__type-index {
+  display: block;
+  color: rgba(31, 32, 65, 0.25);
+  font-family: "Quicksand Bold";
+  margin-right: 30px;
+}
+.color-type .color-type__type-index h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+}
+.color-type .color-type__type-example {
+  display: block;
+  color: #1F2041;
+  font-family: "Quicksand Bold";
+}
+.color-type .color-type__type-example h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+}
 
 .main {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
   position: relative;
+  margin: 145px 200px 0 140px;
 }
 
-ul.colors-n-types {
+.colors-n-types ul {
   list-style: none;
-  position: absolute;
-}
-
-ul.colors {
-  margin: 145px 0 0 140px;
 }
 
 /*# sourceMappingURL=/project_2lvl.e31bb0bc.css.map */
