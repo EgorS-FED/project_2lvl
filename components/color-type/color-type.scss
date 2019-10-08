@@ -5,9 +5,11 @@
     .color-type {
         @include color-type__plate;
         @include color-type__description;
-        width: 15%;
+        //min-width: 110px;
         display: flex;
         height: 70px;
-        margin: 20px auto;
+        margin: 20px 0;
+        justify-content: start;
+
     }
 }
