@@ -1,6 +1,18 @@
-include color-type__type-example_h1
+include color-type__type-example_h1.pug
+include color-type__type-example_h2.pug
+include color-type__type-example_h3.pug
+include color-type__type-example_body.pug
 
 mixin color-type__type-example(type)
     if type == h1
-    .color-type__type-example
-        +color-type__type-example_h1
+        .color-type__type-example
+            +color-type__type-example_h1
+    if type == h2
+        .color-type__type-example
+            +color-type__type-example_h2
+    if type == h3
+        .color-type__type-example
+            +color-type__type-example_h3
+    if type == body
+        .color-type__type-example
+            +color-type__type-example_body

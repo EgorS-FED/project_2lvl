@@ -1,13 +1,17 @@
+@import "color-type__type-index_h1";
+@import "color-type__type-index_h2";
+@import "color-type__type-index_h3";
+@import "color-type__type-index_body";
+
+
 @mixin color-type__type-index {
     .color-type__type-index {
-        display: block;
         color: rgba(31, 32, 65, 0.25);
-        font-family: 'Quicksand Regular';
+        font-family: 'Montserrat Regular';
         margin-right: 30px;
-        h1 {
-            margin: 0;
-            font-size: 24px;
-            line-height: 30px;
-        }
+        @include color-type__type-index_h1;
+        @include color-type__type-index_h2;
+        @include color-type__type-index_h3;
+        @include color-type__type-index_body;
     }
 }

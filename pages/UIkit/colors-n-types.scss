@@ -1,6 +1,7 @@
 @import "../../components/color-type/color-type.scss";
 
-@include color-type;
+@include color-type__color;
+@include color-type__type;
 
 .main {
     margin: 0;
@@ -9,21 +10,22 @@
 }
 
 .colors-n-types {
+    &__colors {
+        position: absolute;
+        top: 145px;
+        left: 140px;
+    }
+    
+    &__types {
+        position: absolute;
+        top: 145px;
+        left: 58%;
+        //margin-left: -20px;
+        margin-right: 140px;
+    }
     ul{
         list-style: none;
         padding: 0;
+        margin: 0;
     }
-}
-
-.colors {
-    position: absolute;
-    top: 145px;
-    left: 140px;
-}
-
-.types {
-    position: absolute;
-    top: 145px;
-    left: 60%;
-    margin-right: 140px;
 }

@@ -1,11 +1,26 @@
 include color-type__type-index_h1.pug
+include color-type__type-index_h2.pug
+include color-type__type-index_h3.pug
+include color-type__type-index_body.pug
 
 -
     var typeExamples= [
         h1,
+        h2,
+        h3,
+        body
     ]
 
 mixin color-type__type-index(type)
     if type == h1
         .color-type__type-index
             +color-type__type-index_h1
+    if type == h2
+        .color-type__type-index
+            +color-type__type-index_h2
+    if type == h3
+        .color-type__type-index
+            +color-type__type-index_h3
+    if type == body
+        .color-type__type-index
+            +color-type__type-index_body

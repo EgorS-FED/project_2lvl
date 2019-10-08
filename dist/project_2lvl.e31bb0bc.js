@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./fonts\\quicksand\\Quicksand-Regular.otf":[["Quicksand-Regular.5e1e4253.otf","components/main/fonts/quicksand/Quicksand-Regular.otf"],"components/main/fonts/quicksand/Quicksand-Regular.otf"],"./fonts\\quicksand\\Quicksand-Bold.otf":[["Quicksand-Bold.21b093c8.otf","components/main/fonts/quicksand/Quicksand-Bold.otf"],"components/main/fonts/quicksand/Quicksand-Bold.otf"],"_css_loader":"C:/Users/dns-1/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/button/button.scss":[function(require,module,exports) {
+},{"./fonts\\quicksand\\Quicksand-Regular.otf":[["Quicksand-Regular.5e1e4253.otf","components/main/fonts/quicksand/Quicksand-Regular.otf"],"components/main/fonts/quicksand/Quicksand-Regular.otf"],"./fonts\\quicksand\\Quicksand-Bold.otf":[["Quicksand-Bold.21b093c8.otf","components/main/fonts/quicksand/Quicksand-Bold.otf"],"components/main/fonts/quicksand/Quicksand-Bold.otf"],"./fonts\\Montserrat\\Montserrat-Regular.otf":[["Montserrat-Regular.d59bc62a.otf","components/main/fonts/Montserrat/Montserrat-Regular.otf"],"components/main/fonts/Montserrat/Montserrat-Regular.otf"],"./fonts\\Montserrat\\Montserrat-Bold.otf":[["Montserrat-Bold.22a269cd.otf","components/main/fonts/Montserrat/Montserrat-Bold.otf"],"components/main/fonts/Montserrat/Montserrat-Bold.otf"],"_css_loader":"C:/Users/dns-1/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/button/button.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);

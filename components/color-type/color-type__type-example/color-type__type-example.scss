@@ -1,12 +1,17 @@
+@import "color-type__type-example_h1";
+@import "color-type__type-example_h2";
+@import "color-type__type-example_h3";
+@import "color-type__type-example_body";
+
+
+
 @mixin color-type__type-example {
     .color-type__type-example {
         display: block;
-        color: #1F2041;
         font-family: 'Quicksand Bold';
-        h1 {
-            margin: 0;
-            font-size: 24px;
-            line-height: 30px;
-        }
+        @include color-type__type-example_h1;
+        @include color-type__type-example_h2;
+        @include color-type__type-example_h3;
+        @include color-type__type-example_body;
     }
 }

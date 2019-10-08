@@ -4,10 +4,11 @@ include ./color-type__type-index/color-type__type-index.pug
 include ./color-type__type-example/color-type__type-example.pug
 
 mixin color-type__color(color)
-    .color-type
+    .color-type__color
         +color-type__plate(color)
         +color-type__description(color)
+
 mixin color-type__type(type)
-    .color-type
+    .color-type__type
         +color-type__type-index(type)
         +color-type__type-example(type)

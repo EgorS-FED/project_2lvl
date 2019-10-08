@@ -1,0 +1,9 @@
+@mixin color-type__type-example_body {
+    p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: 'Montserrat Regular';
+        color: rgba(31, 32, 65, 0.75);
+    }
+}

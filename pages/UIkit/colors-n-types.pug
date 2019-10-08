@@ -3,14 +3,14 @@ include ../../components/color-type/color-type.pug
 
 mixin colors-n-types
     main.main
-        .colors-n-types(class='colors')
+        .colors-n-types(class='colors-n-types__colors')
             ul
                 each val, index in plateColors
                     - var plateColor= val
                     each val, index in plateColor
                         li
                             +color-type__color(index)
-        .colors-n-types(class='types')
+        .colors-n-types(class='colors-n-types__types')
             ul
                 each val,    index in typeExamples
                     li

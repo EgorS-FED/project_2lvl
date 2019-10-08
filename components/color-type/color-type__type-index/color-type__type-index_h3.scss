@@ -1,0 +1,11 @@
+@mixin color-type__type-index_h3 {
+    h3 {
+        display: block;
+        width: 40px;
+        text-align: right;
+        margin: 0;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+}
